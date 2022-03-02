@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="error">Произошла ошибка</string>
+    <string name="enterCity">Введите город</string>
+    <string name="enterError">Ошибка. Возможно, вы неправильно ввели название города</string>
+    <string name="noConnection">Нет подключения к интернету</string>
+    <string name="serviceUnavailable">Сервер временно недоступен</string>
+</resources>
