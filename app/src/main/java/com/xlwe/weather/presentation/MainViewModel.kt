@@ -35,14 +35,14 @@ class MainViewModel @Inject constructor(
                     if (data.description == "" || data.wind == "" || data.temperature == "") {
                         _error.postValue(enterError.getMessage())
                     } else {
-                        var description = ""
+                        /*var description = ""
 
                         if (data.description == "Partly cloudy")
                             description = "Переменная облачность"
                         if (data.description == "Sunny")
                             description = "Солнечно"
                         if (data.description == "Clear")
-                            description = "Ясно"
+                            description = "Ясно"*/
 
                         val wind =
                             (data.wind.replace("km/h", "", false).toDouble() * 1000 / 3600).toInt()
